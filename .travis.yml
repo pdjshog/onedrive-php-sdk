@@ -10,7 +10,7 @@ php:
 
 before_install: composer install
 
-script: composer test:unit:coverage
+script: ./CHECKLIST && composer test:unit:coverage
 
 after_success:
   - 'curl --silent https://codecov.io/bash | bash'
