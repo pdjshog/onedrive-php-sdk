@@ -40,6 +40,8 @@ Change log
   `Krizalys\Onedrive\Proxy\DriveItemProxy::invite()`.
 - `Krizalys\Onedrive\Proxy\HashesProxy`.
 - `Krizalys\Onedrive\Proxy\FolderViewProxy`.
+- Support for creating shared folders: see
+  `Krizalys\Onedrive\Proxy\DriveProxy::createSharedFolder()`.
 
 ### Changed
 
