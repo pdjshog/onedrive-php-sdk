@@ -1,6 +1,6 @@
 {
     "name": "pdjshog/onedrive-php-sdk",
-    "description": "OneDrive SDK for PHP. (updated)",
+    "description": "OneDrive SDK for PHP. (forked/updated for guzzle 7.2)",
     "homepage": "https://github.com/krizalys/onedrive-php-sdk",
     "license": "BSD-3-Clause",
     "prefer-stable": true,
@@ -12,8 +12,11 @@
     ],
     "authors": [
         {
-            "name": "Christophe Vidal, Noa Naoki",
+            "name": "Christophe Vidal",
             "homepage": "http://www.krizalys.com/"
+        },{
+            "name": "Noa Naoki",
+            "homepage": "http://stom-pro.com"
         }
     ],
     "support": {
