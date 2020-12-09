@@ -1,12 +1,6 @@
 OneDrive SDK for PHP
 ====================
 
-[![Latest Stable Version](https://poser.pugx.org/krizalys/onedrive-php-sdk/v/stable)](https://packagist.org/packages/krizalys/onedrive-php-sdk)
-[![Total Downloads](https://poser.pugx.org/krizalys/onedrive-php-sdk/d/total.svg)](https://packagist.org/packages/krizalys/onedrive-php-sdk)
-[![Build Status](https://travis-ci.org/krizalys/onedrive-php-sdk.svg?branch=master)](https://travis-ci.org/krizalys/onedrive-php-sdk)
-[![Code Coverage](https://codecov.io/gh/krizalys/onedrive-php-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/krizalys/onedrive-php-sdk)
-[![StyleCI](https://styleci.io/repos/23994489/shield?style=flat)](https://styleci.io/repos/23994489)
-
 OneDrive SDK for PHP is an open source library that allows [PHP][php]
 applications to interact programmatically with the [OneDrive REST
 API][onedrive-rest-api].
@@ -19,7 +13,7 @@ Requirements
 
 Using the OneDrive SDK for PHP requires the following:
 
-* [PHP][php] 5.6 or newer
+* [PHP][php] 7.3 or newer
 * [Composer][composer] 1.0.0-alpha10 or newer
 * Basic PHP knowledge
 
@@ -41,7 +35,7 @@ The recommended way to install OneDrive SDK for PHP is to install it using
 [Composer][composer]:
 
 ```sh
-composer require krizalys/onedrive-php-sdk
+composer require pdjshog/onedrive-php-sdk
 ```
 
 If you are not already using Composer in your PHP project, refer to [the
